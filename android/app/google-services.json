@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "272625566351",
+    "project_id": "globalchat-36f25",
+    "storage_bucket": "globalchat-36f25.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:272625566351:android:945fb5188c61e8a872e6fa",
+        "android_client_info": {
+          "package_name": "com.dummyapps.glob"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmF45DFXVua56g5bmlVCmTOzpV8YAEH7Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
