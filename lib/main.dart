@@ -1,6 +1,7 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:globalchat/firebase_options.dart';
+import 'package:globalchat/signup_screen.dart';
 import 'package:globalchat/splash_screen.dart';
 
 void main() async {

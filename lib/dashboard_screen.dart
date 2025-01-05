@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:firebase_auth/firebase_auth.dart';
 
 class DashboradScreen extends StatefulWidget {
   const DashboradScreen({super.key});
@@ -8,10 +9,16 @@ class DashboradScreen extends StatefulWidget {
 }
 
 class _DashboradScreenState extends State<DashboradScreen> {
+  var user = FirebaseAuth.instance.currentUser;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Center(child: Text('Dashboard Screen')),
+      appBar: AppBar(
+        title: Text("Dashboard"),
+      ),
+      body: Column(
+        children: [Text('Welcome'), Text((user?.email ?? "").toString())],
+      ),
     );
   }
 }
